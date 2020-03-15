@@ -19,7 +19,7 @@ layout: default
 </div>
 {% assign note = site.data.notes[0] %}
 <div class="note">
-  <div class="target note-heading">最近的碎碎念 # {{ note.date | date: "%Y-%m-%d" }}</div>
+  <div class="note-heading">最近的碎碎念 # {{ note.date | date: "%Y-%m-%d" }}</div>
   {{ note.content | markdownify }}
 </div>
 <ul class="terminal">
