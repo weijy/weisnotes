@@ -3,8 +3,8 @@ layout: default
 title: 碎碎念
 ---
 
-<div class="pin">
-<blockquote> {{ site.pin }} </blockquote>
+<div id="pin" class="pin pin-quote">
+<p> {{ site.pin }} </p>
 </div>
 {% for note in site.data.notes %}
 <div class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
