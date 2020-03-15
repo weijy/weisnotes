@@ -18,9 +18,9 @@ function NightMode() {
 function SetNightMode() {
     if(!getCookie('nightmode')) {
         var date=new Date();
-        document.cookie='nightmode=true; expries='+ (date.getDate()+7) +'; path={{ site.url }}';
+        document.cookie='nightmode=true; expries='+ (date.getDate()+7) +'; path="/"';
     } else {
-        document.cookie = 'nightmode=; expires=Thu, 18 Dec 2013 12:00:00 UTC; path={{ site.url }}';
+        document.cookie = 'nightmode=; expires=Thu, 18 Dec 2013 12:00:00 UTC; path="/"';
     }
     NightMode();
 }
