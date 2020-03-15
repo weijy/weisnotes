@@ -2,8 +2,9 @@
 ---
 
 function getCookie(name) {
-    var value = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-    return value? value[2] : null;   
+    // var value = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    var value = document.cookie.search("nightmode=true");
+    return value >= 0;   
 }
 
 function NightMode() {
