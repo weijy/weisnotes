@@ -7,7 +7,7 @@ layout: default
   <figcaption>卓别林第一遇见海伦凯勒</figcaption>
 </figure>
 <div class="note" id="random_quote">
-  <div class="note-heading">随机一句</div>
+  <div class="note-heading target">随机一句</div>
 </div>
 <script>
   $.getJSON("assets/quotes.json", function(data) {
@@ -19,7 +19,7 @@ layout: default
 </div>
 {% assign note = site.data.notes[0] %}
 <div class="note">
-  <div class="note-heading">最近的碎碎念 # {{ note.date | date: "%Y-%m-%d" }}</div>
+  <div class="note-heading target">最近的碎碎念 # {{ note.date | date: "%Y-%m-%d" }}</div>
   {{ note.content | markdownify }}
 </div>
 <ul class="terminal">
