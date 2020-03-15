@@ -5,16 +5,16 @@ body {
   background: #f7f7f7;
   color: #333;
   font-family: "Source Han Serif SC","Source Han Serif CN",-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
-  line-height: 1.65rem;
+  line-height: 2rem;
   padding: 1.5em 1.5em;
   font-size: 16px;
 }
 
-a {
-  //color: #a0bfd0;
+a .nightmode{
+  color: #a0bfd0;
 
   &:visited {
-    //color: #baa6bd;
+    /color: #baa6bd;
   }
 }
 
@@ -37,6 +37,18 @@ footer {
 header .night {
     position:absolute;
     right: 15px;
+}
+
+pin {
+  margin-top: 10px;
+  display: block
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .h1 {

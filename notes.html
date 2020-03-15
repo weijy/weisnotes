@@ -1,8 +1,11 @@
 ---
 layout: default
-title: Notes
+title: 碎碎念
 ---
 
+<div class="pin">
+<p>{{ site.pin }}</p>
+</div>
 {% for note in site.data.notes %}
 <div class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
   <h2 class="target note-heading">

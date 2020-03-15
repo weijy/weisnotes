@@ -1,14 +1,5 @@
 ---
 ---
-function RandomQuote() {
-        $.getJSON("../quotes.json", function(data){
-            var quote = data[Math.floor(Math.random() * data.length)];
-            $("#random_quote").append(
-                '<div class="quote">' + quote.quote + '</div>' +
-                '<p class="author">——' + quote.author + '</p>'
-            );
-        });
-}
 
 function getCookie(name) {
     var value = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');

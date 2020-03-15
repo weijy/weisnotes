@@ -4,10 +4,10 @@ layout: default
 
 <section>
 
-	<ul>
+	<ul class="terminal">
         {% for post in site.posts %}
         <li>
-            <span class="code">{{ post.date | date: '%Y/%m/%d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+            {{ post.date | date: '%Y/%m/%d' }} >> <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
