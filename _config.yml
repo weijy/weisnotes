@@ -1,0 +1,11 @@
+title: Wei Jingyu
+description:  In the depths of winter I finally learned there was in me an invincible summer.
+url: weijingyu.com
+permalink: pretty
+timezone: Asia/Shanghai
+sass:
+  sass_dir: assets
+  style: :compressed
+collections:
+  - notes
+  - quotes
