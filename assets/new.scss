@@ -10,7 +10,7 @@ body {
   font-size: 14px;
 }
 
-a .nightmode {
+a {
   color: #a0bfd0;
 
   &:visited {
@@ -88,7 +88,7 @@ header .night {
   scroll-margin: 2em;
   margin: 2em 0 3em;
   border: 2px solid #333;
-  padding: .5em 1.4em 1.4em;
+  padding: .5em 0.4em 0.4em;
 
   &:target {
     border-color: #888;
