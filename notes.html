@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 碎碎念
+title: Notes
 ---
 
 <div class="card">
@@ -8,7 +8,7 @@ title: 碎碎念
 </div>
 {% for note in site.data.notes %}
 <div class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
-  <h2 class="note-heading">
+  <h2 class="note-heading target">
     <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">{{ note.date | date: "%Y-%m-%d" }} #</a>
   </h2>
   {{ note.content | markdownify }}
