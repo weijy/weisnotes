@@ -2,7 +2,7 @@
 ---
 
 body {
-  background: #fffff;
+  background: #fff;
   color: #333;
   font-family: "Source Han Serif SC","Source Han Serif CN",-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
   line-height: 2rem;
@@ -24,7 +24,7 @@ a .nightmode {
 }
 
 ::selection {
-  background: #000;
+  background: #bce8f1;
 }
 
 header,
@@ -157,7 +157,7 @@ hr {
 article {
   font-size: 16px;
 }
-article video, article img {
+article video {
     max-width: 100%;
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
@@ -165,7 +165,7 @@ article video, article img {
 }
 
 .center {
-  display:inline-block;
+  display: block;
   margin: 0 auto;
 }
 
